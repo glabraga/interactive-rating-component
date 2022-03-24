@@ -1,0 +1,300 @@
+@font-face {
+    font-family: Overpass;
+    src: url(/font/Overpass-VariableFont_wght.ttf);
+}
+body {
+    font-family: Overpass !important;
+    background-color: hsl(216, 12%, 8%) !important;
+}
+
+.site {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box-container {
+    border-radius: 15px;
+    display: flex;
+    align-items: stretch;
+    max-width: 340px;
+    max-height: 350px;
+    flex-direction: column;
+    padding: 20px;
+    background: linear-gradient(to bottom, hsl(213, 19%, 18%),hsl(214, 12%, 11%))
+}
+
+.box2-container {
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    max-width: 340px;
+    max-height: 350px;
+    flex-direction: column;
+    padding: 20px;
+    background: linear-gradient(to bottom, hsl(213, 19%, 18%),hsl(214, 12%, 11%))
+}
+
+.icon {
+    width: fit-content;
+    height: fit-content;
+    background-color: #30363e;
+    /* width: 70px; */
+    /* height: 70px; */
+    /* margin: 0%; */
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+}
+
+.iconstar {
+    margin: 12px;
+    margin-left: 14px;
+    margin-top: 13px;
+    /* margin-left: 20px; */
+    /* margin-top: 20px; */
+}
+
+.title h2 {
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+.titleThanks {
+    color: hsl(0, 0%, 100%);
+    align-self: center;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.text {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+}
+
+.ratingbox {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+:root{
+    --circle-radio: 40px;
+}
+
+.btn-circle.btn-xl {
+    width: var(--circle-radio);
+    height: var(--circle-radio);
+    border-radius: 50%;    
+    font-size: 12px;
+    text-align: center;
+    color: hsl(217, 12%, 63%) !important;
+    border-color: transparent;
+    background-color:#272c32 !important;
+    /* margin: 10px; */
+
+}
+
+.btn-circle.btn-xl:hover {
+    background-color: hsl(216, 12%, 54%) !important;
+    color: hsl(0, 0%, 100%) !important;
+}
+
+.btn-circle.btn-xl.clickedButton {
+    background-color:hsl(25, 97%, 53%) !important;
+    color: hsl(0, 0%, 100%) !important;
+}
+
+.submitButton {
+    width: 100%;
+    height: 35px;
+    border-radius: 40px;
+    border-color: transparent;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+
+.submitButton:hover {
+    background-color:hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+.submitbox {
+    padding-bottom: px;
+}
+
+.drawing {
+    align-self: center;
+}
+
+.selectionBox {
+    background-color: #272c32;
+    width: 160px;
+    align-self: center;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+.selection {
+    color: hsl(25, 97%, 53%);
+    font-size: 12px;
+    font-weight: lighter;
+    margin-top: 8px;
+    margin-left: 20px;
+    align-self: center;
+}
+
+.thanksText {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    align-self: center;
+    text-align: center;
+}
+
+@media (min-width: 600px) {
+    
+.box-container {
+    border-radius: 15px;
+    display: flex;
+    align-items: stretch;
+    max-width: 510px;
+    max-height: 525px;
+    flex-direction: column;
+    padding: 30px;
+    background: linear-gradient(to bottom, hsl(213, 19%, 18%),hsl(214, 12%, 11%))
+}
+
+.box2-container {
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    max-width: 450px;
+    max-height: 525px;
+    flex-direction: column;
+    padding: 30px;
+    background: linear-gradient(to bottom, hsl(213, 19%, 18%),hsl(214, 12%, 11%))
+}
+
+.icon {
+    width: fit-content;
+    height: fit-content;
+    background-color: #30363e;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+}
+
+.iconstar {
+    margin: 12px;
+    margin-left: 14px;
+    margin-top: 13px;
+}
+
+.title h2 {
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+
+.titleThanks {
+    color: hsl(0, 0%, 100%);
+    align-self: center;
+    font-size: 38px;
+    padding-top: 30px;
+}
+
+.text {
+    color: hsl(217, 12%, 63%);
+    font-size: 20px;
+}
+
+.ratingbox {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+:root{
+    --circle-radio: 60px;
+}
+
+.btn-circle.btn-xl {
+    width: var(--circle-radio);
+    height: var(--circle-radio);
+    border-radius: 50%;    
+    font-size: 18px;
+    text-align: center;
+    color: hsl(217, 12%, 63%) !important;
+    border-color: transparent;
+    background-color:#272c32 !important;
+    /* margin: 10px; */
+
+}
+
+.btn-circle.btn-xl:hover {
+    background-color: hsl(216, 12%, 54%) !important;
+    color: hsl(0, 0%, 100%) !important;
+}
+
+.btn-circle.btn-xl.clickedButton {
+    background-color:hsl(25, 97%, 53%) !important;
+    color: hsl(0, 0%, 100%) !important;
+}
+
+.submitButton {
+    width: 100%;
+    height: 50px;
+    border-radius: 40px;
+    border-color: transparent;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.submitButton:hover {
+    background-color:hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+.submitbox {
+    padding-bottom: px;
+}
+
+.drawing {
+    align-self: center;
+}
+
+.selectionBox {
+    background-color: #272c32;
+    width: 240px;
+    align-self: center;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+.selection {
+    color: hsl(25, 97%, 53%);
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 8px;
+    margin-left: 45px;
+    align-self: center;
+}
+
+.thanksText {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    align-self: center;
+    text-align: center;
+}
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
